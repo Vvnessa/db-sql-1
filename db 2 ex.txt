@@ -1,0 +1,27 @@
+Select * 
+from teachers;
+SELECT *
+ from degrees 
+where level= 'magistrale';
+Select *
+ from students  
+where name = 'Marco';
+select * 
+from courses
+where cfu >=12 ;
+select * 
+from  courses 
+where cfu >10 
+or cfu  < 5;
+
+select * 
+from courses 
+where period= 'I semestre'
+and year = 1;
+
+select * 
+from  courses
+ where website is null;
+select * 
+  from teachers   
+where phone is not null;
