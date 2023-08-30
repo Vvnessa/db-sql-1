@@ -1,0 +1,13 @@
+Select * from students  where year (date_of_birth) =1990;
+Select * from courses  where  cfu>10;
+SELECT *  
+from  courses
+where  period =  'I semestre'
+and  `year` =1
+SELECT * from exams  where hour > '14:00'
+and date= '2020-06-20';
+SELEZIONA TUTT I CORSI DI L MAGISTRALE
+SELECT * from degrees  where level='magistrale';
+select count(Id)  from departments;
+select count(phone)  from teachers;
+select * from  students where  datediff(now(),date_of_birth);
